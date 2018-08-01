@@ -6,10 +6,10 @@
     <class>model.Analista</class>
     <class>model.Produtividade</class>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@(DESCRIPTION =     (ADDRESS = (PROTOCOL = TCP)(HOST = BOBRBR4JUA.americas.hpqcorp.net)(PORT = 1521))     (CONNECT_DATA =       (SERVER = DEDICATED)       (SERVICE_NAME = XE)     )   )"/>
-      <property name="javax.persistence.jdbc.user" value="DB_USER"/>
+      <property name="javax.persistence.jdbc.url" value=""/>
+      <property name="javax.persistence.jdbc.user" value=""/>
       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-      <property name="javax.persistence.jdbc.password" value="123456"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
     </properties>
   </persistence-unit>
 </persistence>
